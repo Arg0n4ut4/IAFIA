@@ -1,0 +1,85 @@
+# --- Python artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env/
+.venv/
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test/output/cache
+.pytest_cache/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.junit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# --- Data and model artifacts ---
+# Ajuste conforme o que você não quer versionar:
+data/raw/
+# Se quiser guardar apenas scripts e amostras pequenas, ignore toda a pasta data.
+# Caso queira versionar exemplos mínimos ou CSVs de amostra, especifique padrões mais restritos em vez de ignorar tudo.
+
+# --- Logs e relatórios gerados ---
+reports/
+logs/
+
+# --- Configurações locais ---
+*.env
+.env.* 
+config.yaml
+config.json
+
+# --- Sistema operacional ---
+# Já cobrimos .DS_Store, Thumbs.db acima.
+
+# --- Outros artefatos comuns ---
+*.bak
+*.tmp
+*~
